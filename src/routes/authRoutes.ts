@@ -1,7 +1,6 @@
 import { Router, Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
 import { PrismaClient } from '@prisma/client';
-import crypto from 'crypto';
 import ApiError from '../error/ApiError';
 import AuthHelper from '../auth/AuthHelper';
 
